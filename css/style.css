@@ -1,0 +1,128 @@
+
+
+/* -- font styles ---------------------*/
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/open_sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+
+
+
+/* -- Base Styles ---------------------*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  margin: 0 auto;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+
+  background-color: #292c2f
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px 2.5px;
+}
+
+
+
+/* -- Header Styles -------------------*/
+
+header {
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #292c2f;
+  position: fixed;
+  width: 100%;
+}
+
+.header_navigation_list {
+  margin-right: 30px;
+  float: right;
+}
+
+.header_navigation_list li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* -- Content Styles -------------------*/
+
+
+#content_wrapper {
+  background-image: url(../img/index_background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;    /*image is in center*/
+  background-attachment: absolute;
+  height: 980px;
+
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+
+.title {
+  font-size: 46px;
+}
+
+.subtitle {
+  font-size: 20px;
+  letter-spacing: 0.05em;
+}
+
+.center_text {
+  text-align: center;
+}
+
+.center_block {
+  margin: 0 auto;
+}
+
+
+/* -- Footer Styles --------------------*/
+
+#footer_wrapper {
+  box-sizing: border-box;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.footer_center_block {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+
+  padding: 35px;
+}
+
+.footer_social_container {
+  width: 200px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.footer_powered_by {
+  box-sizing: border-box;
+  margin: 20px 0 auto;
+}
